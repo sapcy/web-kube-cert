@@ -1,8 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build output is included for npm package distribution
-# dist/
+# Build output
+
 
 # IDE
 .idea/
@@ -21,10 +21,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Test
+# Test coverage
 coverage/
 
-# Misc
-*.tgz
+# Environment
 .env
 .env.local
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
